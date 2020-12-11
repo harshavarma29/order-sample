@@ -1,0 +1,43 @@
+.table-title {
+    font-size: 25px;
+    padding: 8px;
+    color: orange;
+}
+
+table {
+    margin: 15px 5px 30px 5px;
+}
+
+tr {
+    padding: 3px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(119, 201, 119);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(247, 247, 247);
+}
+
+th {
+    margin: 5px;
+    padding: 7px 45px;
+    font-size: 17px;
+    background-color: rgb(108, 108, 194);
+}
+
+td {
+    font-size: 15px;
+    padding: 7px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.underline {
+    border-bottom: 2px grey solid;
+    padding: 4px 10px
+}

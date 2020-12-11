@@ -1,0 +1,45 @@
+.buyer, .seller {
+    width: 49.7%;
+    float: left;
+    margin-top: 10px;
+}
+
+.buyer {
+    border-right: 1px grey solid;
+}
+
+.seller {
+    border-left: 1px grey solid;
+}
+
+.bar {
+    height: 30px;
+    margin: 30px 0px;
+}
+
+.sell-progress {
+    background-color: rgb(79, 79, 185);
+    color: rgb(97, 233, 192);
+    height: 30px;
+}
+
+.buy-progress {
+    background-color: rgb(57, 179, 57);
+    color: rgb(44, 65, 85);
+    height: 30px;
+    float: right;
+}
+
+.b-title, .s-title {
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+.item {
+    height: 30px;
+    width: 50px;
+    border-left: 1px grey solid;
+}

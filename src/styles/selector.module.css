@@ -1,0 +1,15 @@
+.block {
+    overflow: auto;
+}
+
+.left, .right {
+    width: 48.2%;
+    float: left;
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.right {
+    background-color: rgb(206, 203, 203);
+}
